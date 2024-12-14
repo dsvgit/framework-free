@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build && mv dist/src/index.html index.html",
+    "build": "tsc && vite build && mv dist/src/index.html index.html && mkdir -p assets && mv dist/assets/* assets/",
     "preview": "vite preview"
   },
   "devDependencies": {
