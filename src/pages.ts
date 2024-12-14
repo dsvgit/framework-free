@@ -14,6 +14,7 @@ export const HomePage = () => {
 export const AboutPage = () => {
   return render`
     <h2>This website code:</h2>
+    <p>Full source: <a href="https://github.com/dsvgit/framework-free">https://github.com/dsvgit/framework-free</a></p>
     ${render([
       '<pre style="font-family:monospace;color: rgb(68, 68, 68); background-color: rgb(243, 243, 243); font-weight: 400; "><span style="color: rgb(68, 68, 68); font-weight: 700;">import</span> { <span style="color: rgb(136, 0, 0); font-weight: 700;">BehaviorSubject</span>, map } <span style="color: rgb(68, 68, 68); font-weight: 700;">from</span> <span style="color: rgb(136, 0, 0); font-weight: 400;">"rxjs"</span>;\n' +
         "\n" +
